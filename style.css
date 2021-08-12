@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav-bar
+{
+	background-color:#be045e;
+	position: sticky;
+	top:0;
+	z-index:10;
+	float:none;
+	text-align: left;
+}
+.nav-link:hover{
+    background-color:#be045e;
+}
+.navbar
+{
+
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:70px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:rgb(226, 219, 219) !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:red;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---Banner section--*/
+#main
+{
+text-align: center;
+background-color:black;
+color:rgb(250, 244, 244);
+padding-top:10px;	
+}
+
+.container h1 img{
+	padding-bottom: 10px;
+	color: red;
+}
+
+
+#features1
+{
+	text-align: center;
+	padding: 10% 15%;
+}
+ #features
+ {
+     text-align: center;
+	 padding: 14% 30%;
+	 background-image: url('https://www.newsclick.in/sites/default/files/2016-12/One_Rupee_Indian_coins.JPG');
+
+	 background-repeat: no-repeat;
+  	 background-size:cover;
+	
+	 
+
+
+ }
+ 
+ 
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+
+.title::after
+{
+	content:'';
+	background:#242324;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#edf1f0,#faf4fa)
+}
+
+  #action{
+    background-color:#222424;
+    padding: 2% 15%;
+    text-align: right;
+    line-height: 1.5;
+    color: rgb(250, 249, 249);
+  }
+
+
+
+#action h4{
+	
+	text-align: center;
+}
+
+#action h2{
+	text-align: center;
+}
+
+.main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
